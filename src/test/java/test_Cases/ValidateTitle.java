@@ -41,7 +41,7 @@ public class ValidateTitle extends base{
 				homepage.clickLoginLink().click();
 				logger.info("Clicked Login Link Successfully");
 		//compare the text from the browser with actual text.- Error..
-		Assert.assertEquals(homepage.getTitle().getText(),"SIGN IN");
+		Assert.assertEquals(homepage.getTitle().getText(),"BRANCH");
 		 logger.info("Successfully validated Text message");
 		 System.out.println("Validate Title Test completed");
 		
